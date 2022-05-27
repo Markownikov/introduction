@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Poppins;
+    /* padding: 0; */
+}
+body{
+    flex-wrap: nowrap;
+    display:flex;
+    flex-direction: column;
+    height: 700px;
+    width:  calc(100vw-1rem);
+    padding: 1rem;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+   
+   
+.image{
+    width:1000;
+    clip-path: circle();
+}
+
+/* 
+height: calc(100vh-1rem);
+width: calc(100vw-1rem); */
